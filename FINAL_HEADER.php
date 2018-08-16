@@ -4,8 +4,8 @@ session_start();
 ?>
 
 <?php
-$u="jsshah";
-$p="Yash!12081997";
+$u="jsshah"; //Put your username and password to connect with database
+$p="8401083210";  //This is dummy username and password 
 $db="oracle.cise.ufl.edu/orcl";
 $conn = oci_connect($u,$p,$db);
 
